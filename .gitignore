@@ -1,2 +1,5 @@
+build/*
+.idea
+pro_binary
 vendor/**
 !vendor/vendor.json
