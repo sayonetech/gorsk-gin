@@ -6,9 +6,9 @@ import (
 
 	"github.com/rs/xid"
 
-	"github.com/ribice/gorsk-gin/internal"
+	"gorsk-gin/internal"
 
-	"github.com/ribice/gorsk-gin/internal/errors"
+	"gorsk-gin/internal/errors"
 	"golang.org/x/crypto/bcrypt"
 
 	"github.com/gin-gonic/gin"

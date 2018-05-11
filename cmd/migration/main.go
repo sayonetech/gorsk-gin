@@ -7,10 +7,10 @@ import (
 
 	"github.com/go-pg/pg/orm"
 
-	"github.com/ribice/gorsk-gin/internal"
+	"gorsk-gin/internal"
 
 	"github.com/go-pg/pg"
-	"github.com/ribice/gorsk-gin/internal/auth"
+	"gorsk-gin/internal/auth"
 )
 
 func main() {

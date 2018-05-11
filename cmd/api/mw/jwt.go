@@ -5,11 +5,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ribice/gorsk-gin/internal/errors"
+	"gorsk-gin/internal/errors"
 
-	"github.com/ribice/gorsk-gin/internal"
+	"gorsk-gin/internal"
 
-	"github.com/ribice/gorsk-gin/cmd/api/config"
+	"gorsk-gin/cmd/api/config"
 
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"

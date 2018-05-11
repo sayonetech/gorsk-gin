@@ -9,16 +9,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ribice/gorsk-gin/internal"
+	"gorsk-gin/internal"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ribice/gorsk-gin/internal/errors"
+	"gorsk-gin/internal/errors"
 
 	"github.com/gin-gonic/gin"
-	"github.com/ribice/gorsk-gin/cmd/api/service"
-	"github.com/ribice/gorsk-gin/internal/auth"
-	"github.com/ribice/gorsk-gin/internal/mock"
-	"github.com/ribice/gorsk-gin/internal/mock/mockdb"
+	"gorsk-gin/cmd/api/service"
+	"gorsk-gin/internal/auth"
+	"gorsk-gin/internal/mock"
+	"gorsk-gin/internal/mock/mockdb"
 )
 
 func TestLogin(t *testing.T) {

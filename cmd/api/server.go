@@ -37,18 +37,18 @@ import (
 
 	"github.com/gin-contrib/cors"
 
-	"github.com/ribice/gorsk-gin/internal/platform/postgres"
+	"gorsk-gin/internal/platform/postgres"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-pg/pg"
-	"github.com/ribice/gorsk-gin/cmd/api/config"
-	"github.com/ribice/gorsk-gin/cmd/api/mw"
-	"github.com/ribice/gorsk-gin/cmd/api/service"
-	_ "github.com/ribice/gorsk-gin/cmd/api/swagger"
-	"github.com/ribice/gorsk-gin/internal/account"
-	"github.com/ribice/gorsk-gin/internal/auth"
-	"github.com/ribice/gorsk-gin/internal/rbac"
-	"github.com/ribice/gorsk-gin/internal/user"
+	"gorsk-gin/cmd/api/config"
+	"gorsk-gin/cmd/api/mw"
+	"gorsk-gin/cmd/api/service"
+	_ "gorsk-gin/cmd/api/swagger"
+	"gorsk-gin/internal/account"
+	"gorsk-gin/internal/auth"
+	"gorsk-gin/internal/rbac"
+	"gorsk-gin/internal/user"
 	"go.uber.org/zap"
 )
 

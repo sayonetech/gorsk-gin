@@ -6,9 +6,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ribice/gorsk-gin/internal"
-	"github.com/ribice/gorsk-gin/internal/mock"
-	"github.com/ribice/gorsk-gin/internal/rbac"
+	"gorsk-gin/internal"
+	"gorsk-gin/internal/mock"
+	"gorsk-gin/internal/rbac"
 )
 
 func TestNew(t *testing.T) {

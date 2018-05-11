@@ -3,7 +3,7 @@ package mockdb
 import (
 	"context"
 
-	"github.com/ribice/gorsk-gin/internal"
+	"gorsk-gin/internal"
 )
 
 // User database mock

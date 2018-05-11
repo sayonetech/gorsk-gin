@@ -2,7 +2,7 @@ package mock
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/ribice/gorsk-gin/internal"
+	"gorsk-gin/internal"
 )
 
 // RBAC Mock

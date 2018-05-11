@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/ribice/gorsk-gin.svg?branch=master)](https://travis-ci.org/ribice/gorsk-gin)
 [![codecov](https://codecov.io/gh/ribice/gorsk-gin/branch/master/graph/badge.svg)](https://codecov.io/gh/ribice/gorsk-gin)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ribice/gorsk-gin)](https://goreportcard.com/report/github.com/ribice/gorsk-gin)
+[![Go Report Card](https://goreportcard.com/badge/gorsk-gin)](https://goreportcard.com/report/gorsk-gin)
 [![Maintainability](https://api.codeclimate.com/v1/badges/c3cb09dbc0bc43186464/maintainability)](https://codeclimate.com/github/ribice/gorsk-gin/maintainability)
 
 Gorsk-Gin is a Golang starter kit for developing RESTful services, using Gin framework. I developed [Gorsk](https://github/com/ribice/gorsk) originally using Gin, but later moved it to Echo. This repository will be maintained with smaller changes done on Gorsk.

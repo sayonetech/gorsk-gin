@@ -10,16 +10,16 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ribice/gorsk-gin/internal"
+	"gorsk-gin/internal"
 
-	"github.com/ribice/gorsk-gin/cmd/api/service"
-	"github.com/ribice/gorsk-gin/internal/account"
-	"github.com/ribice/gorsk-gin/internal/auth"
+	"gorsk-gin/cmd/api/service"
+	"gorsk-gin/internal/account"
+	"gorsk-gin/internal/auth"
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/ribice/gorsk-gin/internal/mock"
-	"github.com/ribice/gorsk-gin/internal/mock/mockdb"
+	"gorsk-gin/internal/mock"
+	"gorsk-gin/internal/mock/mockdb"
 )
 
 func TestCreate(t *testing.T) {

@@ -1,8 +1,8 @@
 package swagger
 
 import (
-	"github.com/ribice/gorsk-gin/cmd/api/request"
-	"github.com/ribice/gorsk-gin/internal"
+	"gorsk-gin/cmd/api/request"
+	"gorsk-gin/internal"
 )
 
 // Login request

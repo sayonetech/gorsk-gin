@@ -3,8 +3,8 @@ package pgsql
 import (
 	"context"
 
-	"github.com/ribice/gorsk-gin/internal"
-	"github.com/ribice/gorsk-gin/internal/errors"
+	"gorsk-gin/internal"
+	"gorsk-gin/internal/errors"
 
 	"go.uber.org/zap"
 

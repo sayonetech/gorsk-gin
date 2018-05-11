@@ -3,11 +3,11 @@ package account
 import (
 	"net/http"
 
-	"github.com/ribice/gorsk-gin/internal"
+	"gorsk-gin/internal"
 
-	"github.com/ribice/gorsk-gin/internal/auth"
+	"gorsk-gin/internal/auth"
 
-	"github.com/ribice/gorsk-gin/internal/errors"
+	"gorsk-gin/internal/errors"
 
 	"github.com/gin-gonic/gin"
 )

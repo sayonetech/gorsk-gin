@@ -3,10 +3,10 @@ package user
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/ribice/gorsk-gin/internal"
-	"github.com/ribice/gorsk-gin/internal/errors"
-	"github.com/ribice/gorsk-gin/internal/platform/query"
-	"github.com/ribice/gorsk-gin/internal/platform/structs"
+	"gorsk-gin/internal"
+	"gorsk-gin/internal/errors"
+	"gorsk-gin/internal/platform/query"
+	"gorsk-gin/internal/platform/structs"
 )
 
 // New creates new user application service

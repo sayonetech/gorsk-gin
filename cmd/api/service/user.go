@@ -3,13 +3,13 @@ package service
 import (
 	"net/http"
 
-	"github.com/ribice/gorsk-gin/internal"
+	"gorsk-gin/internal"
 
-	"github.com/ribice/gorsk-gin/internal/errors"
-	"github.com/ribice/gorsk-gin/internal/user"
+	"gorsk-gin/internal/errors"
+	"gorsk-gin/internal/user"
 
 	"github.com/gin-gonic/gin"
-	"github.com/ribice/gorsk-gin/cmd/api/request"
+	"gorsk-gin/cmd/api/request"
 )
 
 // User represents user http service
